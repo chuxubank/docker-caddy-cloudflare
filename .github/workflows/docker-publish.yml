@@ -21,9 +21,8 @@ env:
   REGISTRY: docker.io
 
 jobs:
-  push:
+  publish:
     runs-on: ubuntu-latest
-    if: github.event_name == 'push'
 
     permissions:
       contents: read
